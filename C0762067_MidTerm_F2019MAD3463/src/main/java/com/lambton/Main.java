@@ -5,5 +5,6 @@ public class Main {
     {
         LambtonStringTools display=new LambtonStringTools();
         display.reverse("Lambton");
+        display.binaryToDecimal("111111");
     }
 }

@@ -1,6 +1,7 @@
 package com.lambton;
 
 public class LambtonStringTools {
+
     public void reverse(String s)
     {
         String b = "";
@@ -35,6 +36,13 @@ public class LambtonStringTools {
             System.out.println("null");
         }
 
+    }
+    public  void replaceSubString(String s1, String s2, String s3)
+
+    {
+        String firstsString =s1;
+        String secondString=s2;
+        String  thirdString=s3;
     }
 
 }

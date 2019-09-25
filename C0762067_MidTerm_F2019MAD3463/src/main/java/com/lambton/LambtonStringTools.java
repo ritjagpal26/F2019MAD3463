@@ -43,7 +43,15 @@ public class LambtonStringTools {
         String firstsString =s1;
         String secondString=s2;
         String  thirdString=s3;
-    }
+        if (s1.contains(s2))
+        {
+            System.out.println(s1.replaceAll(s2,s3));
+        }
 
+    }
+    public void mostFrequent(String s)
+    {
+        
+    }
 }
 

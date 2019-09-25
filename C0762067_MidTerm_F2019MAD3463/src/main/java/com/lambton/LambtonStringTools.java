@@ -18,17 +18,18 @@ public class LambtonStringTools {
         System.out.println(s+" is equal to " +a);
     }
     public void initials(String s) {
-        String b = "";
+        String signs = "";
         String a = s;
-        String[] ab=a.split(" ");
-        char c = ' ';
-        if(ab.length==3)
+        String[] WhiteSpace=a.split(" ");
+        char connect = ' ';
+        if(WhiteSpace.length==3)
         {
-            for (int i=0; i<ab.length-1; i++) {
-                c = ab[i].charAt(0);
-                b += c+".";
+            for (int i=0; i<WhiteSpace.length-1; i++) {
+                connect = WhiteSpace[i].charAt(0);
+                signs += connect+".";
             }
-            System.out.println(b);
+            signs+=WhiteSpace[WhiteSpace.length-1];
+            System.out.println(signs);
         }
         else {
             System.out.println("null");
